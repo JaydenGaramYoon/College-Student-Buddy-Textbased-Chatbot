@@ -1,6 +1,3 @@
-## Credits
-     NeuralNine | [https://github.com/NeuralNine/youtube-tutorials]
-     (https://github.com/NeuralNine/youtube-tutorials/tree/main/Intelligent%20AI%20Web%20Chatbot)
 # College Student Buddy Chatbot
 
 This is a Python-based chatbot designed to provide personalized advice and support to college students 24/7. It acts as a friendly buddy, offering assistance with various issues students commonly face.
@@ -37,3 +34,7 @@ To run this chatbot, you'll need to install the following Python packages:
 
 ```bash
 pip install numpy flask keras tensorflow
+
+## Credits
+     NeuralNine | [https://github.com/NeuralNine/youtube-tutorials]
+     (https://github.com/NeuralNine/youtube-tutorials/tree/main/Intelligent%20AI%20Web%20Chatbot)
