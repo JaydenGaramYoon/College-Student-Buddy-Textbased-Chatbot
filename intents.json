@@ -20,6 +20,60 @@
     "patterns": ["What helps with insomnia?", "How to fix insomnia?", "What can I do for better sleep?", "How to treat insomnia?", "What works for falling asleep?", "Any tips for insomnia?", "How to deal with insomnia?"],
     "responses": ["How about trying a regular sleep and wake-up schedule? It can really help!", "Maybe skip the late coffee and keep your phone away before bed—it makes a difference!", "Relaxing stuff like deep breaths or meditation might work wonders for you", "Your room could be a sleep haven—make it comfy and peaceful", "Light meals in the evening are your friend; save the heavy stuff for earlier", "Daytime exercise’s great but keep it earlier in the day", "And if it’s still tricky, a friendly chat with a doctor might help!"],
     "context_set": ""
-  }
+  },
+  {
+    "tag": "common_cold",
+    "patterns": ["What helps with a cold?", "How to treat a common cold?", "What are good remedies for a cold?", "How to get rid of a cold fast?", "What can I take for cold symptoms?", "Any tips for dealing with a cold?", "How to soothe a sore throat from a cold?"],
+    "responses": ["Rest is key! Take it easy and let your body recover.", "Stay hydrated with plenty of fluids like water, juice, or broth.", "Over-the-counter pain relievers can help with aches and fever.", "Gargling with warm salt water can soothe a sore throat.", "A humidifier can help relieve congestion.", "Vitamin C and zinc might offer some support.", "If symptoms worsen or persist, consult a doctor."],
+    "context_set": ""
+  },
+  {
+    "tag": "headache",
+    "patterns": ["What relieves a headache?", "How to get rid of a headache?", "What are good remedies for headaches?", "How to treat a tension headache?", "What can I take for a headache?", "Any tips for headache relief?", "How to prevent headaches?"],
+    "responses": ["Over-the-counter pain relievers like ibuprofen or acetaminophen can help.", "Resting in a quiet, dark room can be beneficial.", "Applying a cold compress or a warm compress to your forehead or neck might provide relief.", "Staying hydrated is important.", "Reducing stress can help prevent tension headaches.", "Caffeine can sometimes help, but avoid excessive intake.", "If headaches are frequent or severe, consult a doctor."],
+    "context_set": ""
+  },
+    {
+    "tag": "stomach_ache",
+    "patterns": ["What helps with a stomach ache?", "How to soothe a stomach ache?", "What are good remedies for stomach pain?", "How to treat an upset stomach?", "What can I take for stomach cramps?", "Any tips for relieving stomach discomfort?", "How to prevent stomach aches?"],
+    "responses": ["Try sipping clear liquids like water or ginger ale.", "The BRAT diet (Bananas, Rice, Applesauce, Toast) can be helpful.", "Over-the-counter antacids can provide relief.", "Applying a heating pad to your abdomen might ease discomfort.", "Avoid spicy, greasy, or acidic foods.", "Rest and relaxation can aid recovery.", "If pain is severe or persistent, seek medical advice."],
+    "context_set": ""
+  },
+    {
+    "tag": "muscle_pain",
+    "patterns": ["What helps with muscle pain?", "How to relieve muscle soreness?", "What are good remedies for muscle aches?", "How to treat muscle strains?", "What can I take for muscle cramps?", "Any tips for muscle recovery?", "How to prevent muscle pain?"],
+    "responses": ["Rest the affected muscle and avoid strenuous activity.", "Apply ice packs to reduce inflammation in the first 24-48 hours, then switch to heat.", "Over-the-counter pain relievers or muscle relaxants can help.", "Gentle stretching and massage can promote healing.", "Staying hydrated is important for muscle function.", "Proper warm-up and cool-down exercises can prevent injuries.", "If pain is severe or doesn't improve, consult a doctor."],
+    "context_set": ""
+  },
+    {
+    "tag": "allergies",
+    "patterns": ["What helps with allergies?", "How to treat seasonal allergies?", "What are good remedies for allergy symptoms?", "How to relieve itchy eyes from allergies?", "What can I take for allergy relief?", "Any tips for managing allergies?", "How to prevent allergy flare-ups?"],
+    "responses": ["Over-the-counter antihistamines can help relieve sneezing, itching, and runny nose.", "Nasal corticosteroids can reduce nasal inflammation.", "Decongestants can clear up nasal congestion.", "Eye drops can soothe itchy and watery eyes.", "Identifying and avoiding allergens is crucial.", "Keeping your home clean and using air purifiers can help.", "Consult an allergist for personalized treatment."],
+    "context_set": ""
+  },
+    {
+    "tag": "back_pain",
+    "patterns": ["What helps with back pain?", "How to relieve lower back pain?", "What are good remedies for back aches?", "How to treat back strains?", "What can I take for back pain relief?", "Any tips for managing back pain?", "How to prevent back pain?"],
+    "responses": ["Rest, but avoid prolonged bed rest.", "Apply ice packs for the first 48 hours, then switch to heat.", "Over-the-counter pain relievers or muscle relaxants can help.", "Gentle stretching and exercises can strengthen back muscles.", "Maintain good posture and proper lifting techniques.", "A supportive mattress and ergonomic chair can be beneficial.", "If pain is severe or persistent, consult a doctor or physical therapist."],
+    "context_set": ""
+  },
+  {
+    "tag": "toothache",
+    "patterns": ["What helps with a toothache?", "How to relieve tooth pain?", "What are good remedies for toothaches?", "How to treat a tooth infection?", "What can I take for toothache relief?", "Any tips for managing tooth pain?", "How to prevent toothaches?"],
+    "responses": ["Rinse your mouth with warm salt water.", "Over-the-counter pain relievers can help manage pain.", "Apply a cold compress to the outside of your cheek.", "Floss gently to remove any food particles.", "Avoid sugary foods and drinks.", "See a dentist as soon as possible to address the underlying cause.", "Proper oral hygiene is crucial for prevention."],
+    "context_set": ""
+  },
+    {
+    "tag": "sore_throat",
+    "patterns": ["What helps with a sore throat?", "How to soothe a sore throat?", "What are good remedies for sore throats?", "How to treat strep throat?", "What can I take for sore throat relief?", "Any tips for managing a sore throat?", "How to prevent sore throats?"],
+    "responses": ["Gargle with warm salt water.", "Drink warm liquids like tea with honey or broth.", "Use throat lozenges or sprays.", "Rest your voice.", "Avoid irritants like smoke or pollution.", "A humidifier can help soothe a dry throat.", "If symptoms are severe or persist, see a doctor."],
+    "context_set": ""
+  },
+    {
+    "tag": "earache",
+    "patterns": ["What helps with an earache?", "How to relieve ear pain?", "What are good remedies for earaches?", "How to treat an ear infection?", "What can I take for earache relief?", "Any tips for managing ear pain?", "How to prevent earaches?"],
+    "responses": ["Apply a warm compress to the affected ear.", "Over-the-counter pain relievers can help manage pain.", "Avoid inserting anything into the ear canal.", "Chewing gum or sucking on hard candy can sometimes relieve pressure.", "See a doctor if pain is severe or accompanied by fever or discharge.", "Dry your ears thoroughly after swimming or showering.", "Avoid exposure to secondhand smoke."],
+    "context_set": ""
+  },
 ]
 }
