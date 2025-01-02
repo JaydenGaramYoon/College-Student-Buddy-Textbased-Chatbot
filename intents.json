@@ -75,5 +75,51 @@
     "responses": ["Apply a warm compress to the affected ear.", "Over-the-counter pain relievers can help manage pain.", "Avoid inserting anything into the ear canal.", "Chewing gum or sucking on hard candy can sometimes relieve pressure.", "See a doctor if pain is severe or accompanied by fever or discharge.", "Dry your ears thoroughly after swimming or showering.", "Avoid exposure to secondhand smoke."],
     "context_set": ""
   },
+  제공해주신 형식을 참고하여 대학생들이 쉽게 겪는 학업 문제들을 영어 tag명으로 구성하여 JSON 형식으로 만들어 보았습니다. 한국어 버전과 마찬가지로, 대학생들의 문제는 개인차가 크고 복합적인 요인이 작용할 수 있다는 점을 고려하여 일반적인 경향을 반영하였습니다.
+JSON
+
+[
+  {
+    "tag": "major_adjustment_difficulties",
+    "patterns": ["I don't think my major is right for me.", "My major is too difficult.", "I'm having trouble keeping up with my major courses.", "I think I made the wrong choice with my major.", "I'm not interested in my major.", "My major is stressing me out.", "Should I change my major?"],
+    "responses": ["Have you considered getting career counseling related to your major?", "Try using tutoring or study groups for your major courses.", "You can try auditing other major courses to compare.", "You can seek advice by consulting with professors or seniors.", "Participate in various activities related to your major.", "Consider taking a leave of absence or double majoring/minoring.", "Take some time to think about your strengths and interests again."],
+    "context_set": ""
+  },
+  {
+    "tag": "academic_anxiety_and_stress",
+    "patterns": ["I'm so anxious about exams.", "I'm stressed about my grades.", "I'm overwhelmed with assignments.", "I can't concentrate on my studies.", "I'm struggling with anxiety about the future.", "I think I'm burned out.", "I'm having trouble balancing academics and other activities."],
+    "responses": ["Try using the school counseling center.", "Maintaining a regular daily routine is important.", "Relieve stress through proper rest and hobbies.", "Talk comfortably with friends or family.", "Try activities that help stabilize your mind and body, such as meditation or yoga.", "Create and follow a time management plan.", "Try to think positively."],
+    "context_set": ""
+  },
+  {
+    "tag": "time_management_difficulties",
+    "patterns": ["I have poor time management skills.", "I often miss assignment deadlines.", "I have trouble managing my class schedule.", "I make plans but can't keep them.", "I have so many things to do that I don't know where to start.", "I feel constantly rushed.", "I don't know how to use my time efficiently."],
+    "responses": ["Try using a scheduler or planner.", "Use time management apps or websites.", "Utilize time management techniques such as the Pomodoro Technique.", "Prioritize and handle important tasks first.", "Ask for help or advice from people around you.", "Organize your workspace and create a focused environment.", "Get enough sleep."],
+    "context_set": ""
+  },
+  {
+    "tag": "interpersonal_relationship_difficulties",
+    "patterns": ["I have trouble making friends at school.", "I have conflicts in team projects.", "I have a difficult relationship with my professors.", "I'm very shy and it's hard.", "I have trouble communicating with others.", "I spend a lot of time alone.", "It's difficult for me to be proactive."],
+    "responses": ["Try joining school clubs or study groups.", "Actively participate in departmental events or orientation.", "Participate in the counseling center's interpersonal relationship programs.", "Try talking to others first.", "Have an attitude of listening to the other person.", "Utilize online communities.", "Try to act proactively with confidence."],
+    "context_set": ""
+  },
+  {
+    "tag": "financial_difficulties",
+    "patterns": ["It's too hard to pay tuition.", "I don't have enough living expenses.", "I don't have enough time to study because of my part-time job.", "It's difficult to balance academics and part-time work.", "I don't have enough allowance.", "I'm stressed because of financial problems.", "It's hard to get scholarship information."],
+    "responses": ["Look for school scholarship programs and external scholarship information.", "Utilize on-campus part-time jobs or work-study programs.", "Learn about student loan programs offered by the government or local governments.", "Find ways to save on living expenses.", "Ask for help from family or acquaintances.", "Getting financial counseling can also be helpful.", "Adjust your part-time work hours so that it doesn't interfere with your studies."],
+    "context_set": ""
+  },
+  {
+    "tag": "career_concerns",
+    "patterns": ["I don't know what to do in the future.", "I'm worried about my career after graduation.", "I'm worried about what job I should get.", "I don't know what I want to do.", "It's hard to find a job related to my major.", "I have no confidence in the future.", "I don't know how to prepare for a job."],
+    "responses": ["Visit the school's career support center for counseling.", "Participate in career-related lectures or special lectures.", "Look for various job information.", "Gain experience through internships or volunteer work.", "Seek advice from seniors or graduates.", "Take time to explore yourself.", "Meet people in related fields and build a network."],
+    "context_set": ""
+  },
+  {
+    "tag": "learning_method_difficulties",
+    "patterns": ["I don't know how to study.", "I have trouble memorizing.", "I have difficulty understanding the course content.", "My grades don't improve even if I try.", "I have poor concentration and can't study.", "I don't know how to study effectively for exams.", "I have no motivation to study."],
+    "responses": ["Find a learning method that suits you (e.g., visual, auditory, kinesthetic learning).", "Improve your note-taking methods.", "Use study groups to teach and learn from each other.", "Utilize online learning resources or educational platforms.", "Use various learning techniques (e.g., summarizing, mind mapping).", "Create a study schedule and stick to it.", "Set specific and achievable study goals."],
+    "context_set": ""
+  },
 ]
 }
