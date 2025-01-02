@@ -34,6 +34,7 @@ To run this chatbot, you'll need to install the following Python packages:
 
 ```bash
 pip install numpy flask keras tensorflow
+```
 
 ## Credits
      NeuralNine | [https://github.com/NeuralNine/youtube-tutorials]
