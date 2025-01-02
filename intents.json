@@ -75,10 +75,6 @@
     "responses": ["Apply a warm compress to the affected ear.", "Over-the-counter pain relievers can help manage pain.", "Avoid inserting anything into the ear canal.", "Chewing gum or sucking on hard candy can sometimes relieve pressure.", "See a doctor if pain is severe or accompanied by fever or discharge.", "Dry your ears thoroughly after swimming or showering.", "Avoid exposure to secondhand smoke."],
     "context_set": ""
   },
-  제공해주신 형식을 참고하여 대학생들이 쉽게 겪는 학업 문제들을 영어 tag명으로 구성하여 JSON 형식으로 만들어 보았습니다. 한국어 버전과 마찬가지로, 대학생들의 문제는 개인차가 크고 복합적인 요인이 작용할 수 있다는 점을 고려하여 일반적인 경향을 반영하였습니다.
-JSON
-
-[
   {
     "tag": "major_adjustment_difficulties",
     "patterns": ["I don't think my major is right for me.", "My major is too difficult.", "I'm having trouble keeping up with my major courses.", "I think I made the wrong choice with my major.", "I'm not interested in my major.", "My major is stressing me out.", "Should I change my major?"],
