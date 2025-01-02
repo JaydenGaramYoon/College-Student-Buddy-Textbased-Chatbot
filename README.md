@@ -1,2 +1,2 @@
 ## Credits
-     -https://github.com/NeuralNine/youtube-tutorials
+     -NeuralNine | https://github.com/NeuralNine/youtube-tutorials
