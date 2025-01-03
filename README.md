@@ -1,4 +1,4 @@
-# College Student Buddy Chatbot
+# College Student Buddy Chatbot (Inspired by NeuralNine)
 
 This is a Python-based chatbot designed to provide personalized advice and support to college students 24/7. It acts as a friendly buddy, offering assistance with various issues students commonly face.
 
