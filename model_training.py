@@ -20,7 +20,8 @@ from keras import Sequential
 
 import json
 with open('c:/Users/윤가람/OneDrive/바탕 화면/PROJECTS/AI_Chatbot/Current/Model Training/intents.json', 'r', encoding='utf-8') as f:
-    intents = json.load(f)
+    intents = json.load(f) 
+
 
 lemmatizer = WordNetLemmatizer()
 
@@ -59,7 +60,7 @@ for document in documents:
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
-    
+
 random.shuffle(training)
 
 train_x = []
@@ -69,9 +70,8 @@ for sample in training:
     bag = sample[0]
     output_row = sample[1]
 
-    # 빈 가방 처리 (필요한 경우)
     if not bag:
-        bag = [0] * len(words)  # 일관된 모양을 위해 0으로 채움
+        bag = [0] * len(words)
 
     train_x.append(bag)
     train_y.append(output_row)
@@ -81,17 +81,13 @@ complete_samples = [sample for sample in training if len(sample[1]) == expected_
 train_x = [sample[0] for sample in complete_samples]
 train_y = [sample[1] for sample in complete_samples]
 
-# 별도의 NumPy 배열로 변환
 train_x = np.array(train_x)
 train_y = np.array(train_y)
-
-print(train_x.shape)  # 모양 확인 (예: (27, 어휘 길이))
-print(train_y.shape)  # 모양 확인 (예: (27, 클래스 개수))
 
 input_layer = Input(shape=(len(train_x[0]),))
 
 model = Sequential([
-    input_layer, # 입력 레이어를 첫 번째 레이어로 추가
+    input_layer,
     Dense(128, activation='relu'),
     Dropout(0.5),
     Dense(64, activation='relu'),
@@ -99,8 +95,10 @@ model = Sequential([
     Dense(len(train_y[0]), activation='softmax')
 ])
 
-sgd = SGD(learning_rate=0.01, weight_decay=1e-6, momentum=0.9, nesterov=True) # learning_rate로 변경!
+sgd = SGD(learning_rate=0.01, weight_decay=1e-6, momentum=0.9, nesterov=True)
+
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+
 
 model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
 
