@@ -2,8 +2,6 @@ from flask import Flask, request, jsonify, render_template
 
 from utils import get_response, predict_class
 
-from keras.src.models import model
-
 app = Flask(__name__, template_folder='templates')
 
 
@@ -19,6 +17,11 @@ def handle_message():
     response = get_response(intents_list)
 
     return jsonify({'response': response})
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True)
+
 
 
 if __name__ == '__main__':
